@@ -21,8 +21,8 @@ function getResults() {
             for(var i = 0; i < 10; i++) {
 
                 var newEntry = "<tr class = 'clickable-row' data-href = "+links[i]+">" +
-                                "<td class = 'row-title'>"+titles[i]+"</td>" +
-                                "<td class = 'row-description'>"+descriptions[i]+"</td></tr>";
+                                "<td><p class='row-title'>"+titles[i]+"</p>"+
+                                "<p class='row-description'>&nbsp;&nbsp;&nbsp;&nbsp;"+descriptions[i]+"</p></td></tr>";
 
                 $("table").append(newEntry);
             }
