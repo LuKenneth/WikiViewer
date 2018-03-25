@@ -1,0 +1,40 @@
+body {
+    background-color: #292b2d;
+    color: #3f9b44;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+#search-box {
+    margin: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #3f9b44;
+    color: white;
+}
+
+.results {
+    padding-right: 50px;
+}
+
+td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 20px;
+    background-color: #455149;
+    font-size: 30px;
+    border: 5px solid black;
+}
+
+table {
+    padding: 15px;
+}
+
+tr {
+    padding: 20px;
+}
